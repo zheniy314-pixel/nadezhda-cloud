@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void updateUi() {
         String selectedDisplay = formatForDisplay(selectedDateIso);
-        selectedDateText.setText(getString(R.string.selected_date_placeholder, selectedDisplay));
+        selectedDateText.setText(getString(R.string.selected_date_value, selectedDisplay));
 
         if (markedDates.contains(selectedDateIso)) {
             toggleMarkButton.setText(R.string.unmark_selected_day);
