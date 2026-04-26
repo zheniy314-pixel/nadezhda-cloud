@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Критические дни</string>
+    <string name="no_date_selected">Выбранная дата: —</string>
+    <string name="selected_date_value">Выбранная дата: %1$s</string>
+    <string name="toggle_mark">Отметить / снять дату</string>
+    <string name="mark_selected_day">Отметить выбранную дату</string>
+    <string name="unmark_selected_day">Снять отметку с выбранной даты</string>
+    <string name="marked_days_title">Отмеченные дни</string>
+    <string name="no_marked_days">Пока нет отмеченных дат</string>
+    <string name="marked_days_list">%1$s</string>
+    <string name="saved_ok">Сохранено</string>
+    <string name="removed_ok">Отметка снята</string>
+    <string name="day_marked">Дата отмечена</string>
+    <string name="day_unmarked">Отметка снята</string>
+    <string name="date_display_format">%1$td.%1$tm.%1$tY</string>
+</resources>
