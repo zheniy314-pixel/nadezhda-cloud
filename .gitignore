@@ -1,0 +1,7 @@
+/android-sdk/
+/tools/
+
+# Android/Gradle local artifacts
+**/.gradle/
+**/build/
+**/local.properties

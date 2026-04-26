@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Критические дни</string>
+    <string name="title">Отметки критических дней</string>
+    <string name="selected_date_template">Выбранная дата: %1$s</string>
+    <string name="status_marked">Эта дата отмечена как критический день.</string>
+    <string name="status_not_marked">Эта дата пока не отмечена.</string>
+    <string name="button_add_day">Отметить как критический день</string>
+    <string name="button_remove_day">Снять отметку</string>
+    <string name="marked_days_title">Список отмеченных дней</string>
+</resources>
