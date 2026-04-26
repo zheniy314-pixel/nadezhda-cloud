@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Критические дни</string>
+    <string name="select_day_hint">Выберите день в календаре</string>
+    <string name="selected_day_marked">Выбрано: %1$s (отмечено)</string>
+    <string name="selected_day_not_marked">Выбрано: %1$s</string>
+    <string name="mark_as_critical">Отметить как критический</string>
+    <string name="unmark_critical_day">Снять отметку</string>
+    <string name="critical_days_list">Список отмеченных дней</string>
+    <string name="no_critical_days">Пока нет отмеченных критических дней.</string>
+    <string name="critical_days_with_count">Отмечено дней: %1$d\n\n%2$s</string>
+</resources>
