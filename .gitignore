@@ -7,3 +7,5 @@ local.properties
 captures/
 *.apk
 *.aab
+android-sdk/
+.tmp/
