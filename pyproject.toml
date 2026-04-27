@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kk4-delpa"
+version = "0.1.0"
+description = "План деплоя в dry-run режиме без обязательных секретов"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+kk4-delpa = "kk4_delpa.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["kk4_delpa*"]
