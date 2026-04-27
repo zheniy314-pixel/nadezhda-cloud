@@ -1,0 +1,18 @@
+Установка на эмулятор или телефон (на твоей машине, где запущен эмулятор):
+
+1. Подключи устройство или запусти эмулятор так, чтобы в списке было видно устройство:
+   adb devices
+
+2. Собери отладочный APK (если ещё не собран):
+   cd application
+   export ANDROID_HOME=путь_к_tвоему_SDK
+   ./gradlew assembleDebug
+
+3. Установи:
+   ./install_on_device.sh
+
+Либо вручную:
+   adb install -r app/build/outputs/apk/debug/app-debug.apk
+
+Готовый APK после сборки лежит здесь:
+   application/app/build/outputs/apk/debug/app-debug.apk
