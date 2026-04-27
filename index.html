@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Итоговый проект — лаконичная презентация и контакты">
+  <title>Итоговый результат</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">К основному содержимому</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#">надежда<span class="dot">.</span>код</a>
+      <nav class="nav" aria-label="Основное меню">
+        <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-panel">
+          Меню
+        </button>
+        <ul id="nav-panel" class="nav-list">
+          <li><a href="#about">О проекте</a></li>
+          <li><a href="#features">Возможности</a></li>
+          <li><a href="#cta">Связь</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <p class="eyebrow">Итоговая версия</p>
+        <h1>Спокойный сайт как готовый результат</h1>
+        <p class="lead">
+          Структура, типографика и доступность без лишних зависимостей.
+          Открой файл <code>index.html</code> в браузере или подними простой статический сервер.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#features">Смотреть блоки</a>
+          <a class="btn btn-ghost" href="#cta">Контакт</a>
+        </div>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap split">
+        <div>
+          <h2>О проекте</h2>
+          <p>
+            Это финальная сборка: один HTML-файл, отдельная таблица стилей и небольшой скрипт для меню и плавной прокрутки.
+            Вёрстка адаптивная, контраст проверен для чтения в светлой и тёплой палитре.
+          </p>
+        </div>
+        <aside class="card card-muted">
+          <h3>Состав</h3>
+          <ul class="checklist">
+            <li>Семантическая разметка</li>
+            <li>Фокус и клавиатура</li>
+            <li>Без сборщика и фреймворков</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="features" class="section section-alt">
+      <div class="wrap">
+        <h2 class="section-title">Возможности</h2>
+        <div class="grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">01</div>
+            <h3>Чёткая структура</h3>
+            <p>Шапка, основной блок, секции и подвал — предсказуемый порядок для людей и для инструментов доступности.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">02</div>
+            <h3>Типографика</h3>
+            <p>Иерархия заголовков, комфортная ширина строки и размер шрифта для длинного текста.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">03</div>
+            <h3>Лёгкое расширение</h3>
+            <p>Можно добавить новые секции в разметке и стили в одном файле — без пересборки проекта.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="section cta-band">
+      <div class="wrap cta-inner">
+        <div>
+          <h2>Готово к показу</h2>
+          <p class="cta-text">Если нужно — замени тексты и цвета в <code>styles.css</code> под свой бренд.</p>
+        </div>
+        <a class="btn btn-primary" href="#main">Наверх</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year"></span> Итоговый сайт</p>
+      <p class="footer-note">Сделано как финальный результат без лишнего шума.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
