@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.scientific.calculator.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.scientific.calculator.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.7/com.scientific.calculator.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "/root/.gradle/daemon/8.7/com.scientific.calculator.app-main-33:/layout/activity_main.xml"
+    }
+]
