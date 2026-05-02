@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Научный калькулятор</string>
+    <string name="hint_radians">Тригонометрия: радианы (кнопка Rad/Deg)</string>
+    <string name="hint_degrees">Тригонометрия: градусы</string>
+    <string name="no_ans_yet">Пока нет результата — сначала нажми =</string>
+    <string name="error_domain">Ошибка: недопустимое значение</string>
+    <string name="error_syntax">Ошибка в выражении: %1$s</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_primary">#1565C0</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_surface">#FFFBFE</color>
+    <color name="md_theme_onSurface">#1C1B1F</color>
+    <color name="btn_digit">#E3E8EF</color>
+    <color name="btn_op">#B8C5D6</color>
+    <color name="btn_func">#90A4AE</color>
+    <color name="btn_accent">#1565C0</color>
+</resources>
